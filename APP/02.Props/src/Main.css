@@ -1,0 +1,39 @@
+.mainsec{
+    background-image: url("https://demos.creative-tim.com/soft-ui-design-system/assets/img/curved-images/curved.jpg");
+    width: 100%;
+    height: 521.4px;
+}
+.head{
+    background-color:#d2d6e0;
+    width: 1240px;
+    height: 57.4px;
+}
+.nav-logo{
+    color: #344767;
+}
+.first-ul ul{
+    color: #344767;
+    gap: 25px;
+}
+.second-ul{
+    gap: 15px;
+}
+.on{
+    outline: 0.9px solid rgb(203, 12, 159);
+    color: rgb(203, 12, 159);
+}
+.onn{
+    background-color: rgb(203, 12, 159);
+    color: #fff;
+    text-decoration: none;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marg{
+    margin-left: 60px;
+}
+.onn-2{
+    width:150px;
+}

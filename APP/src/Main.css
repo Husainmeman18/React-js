@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #212121;
+    height: 50rem;
+}
+.head {
+    width: 100%;
+    height: 95.5px;
+    background-image: linear-gradient(to right, rgb(67, 67, 203) 0%, rgb(125 1 79) 50%, #7F00FF 100%);
+    position: relative;
+    z-index: 2;
+}
+
+.headline {
+    position: absolute;
+    height: 95.5px;
+}
+
+.headline ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    gap: 85px;
+    padding-top: 25px;
+    padding-left: 60px;
+    height: 95.5px;
+}
+
+.png {
+    text-decoration: none;
+    color: #fff;
+}
+
+.headmain ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 85px;
+    padding-top: 45px;
+}
+.same {
+    text-decoration: none;
+    position: relative;
+    color: #adb0bc;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.same::before {
+    content: "";
+    position: absolute;
+    background-color: #7F00FF;
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.same:hover::before {
+    width: 100%;
+}
+
+.footsame {
+    text-decoration: none;
+    position: relative;
+    color: #adb0bc;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footsame::before {
+    content: "";
+    position: absolute;
+    background-color: #7F00FF;
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.footsame:hover::before {
+    width: 100%;
+}
+
+.logo-text {
+    font-size: 40px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+    color: black;
+}
+
+.btn {
+    position: absolute;
+    right: 100px;
+}
+
+.b1 {
+    width: 185.5px;
+    height: 55.5px;
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(to right, #7F00FF 0%, #E100FF 50%, #7F00FF 100%);
+    background-size: 200% auto;
+    background-position: left center;
+    transition: all linear 0.2s;
+}
+
+.b1:hover {
+    background-position: right center;
+    transition: all linear 0.2s;
+}
+
+.submit{
+    background-color: #7F00FF;
+    color: white;
+}
+table{
+    width: 300px;
+    height: 140px;
+}
+input{
+    width: 200px;
+    height: 41px;
+    background-color: #232a31;
+    border: none;
+    border-radius: 5px;
+}
+input::placeholder{
+    padding-left: 10px;
+}
